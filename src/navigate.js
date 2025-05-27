@@ -74,7 +74,7 @@ class Navigate {
 				// // get captcha img link id = "captchaimg"
 
 				await page.waitForNetworkIdle();
-				await page.waitForSelector('input[type="email"]', { timeout: 3000 });
+				await page.waitForSelector('input[type="email"]', { timeout: 9000 });
 				await page.type(
 					'input[type="email"]',
 					"psupdates@classplus.co"
